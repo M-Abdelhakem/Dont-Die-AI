@@ -64,12 +64,64 @@ Your location is always shared with your selected contacts, and it pops up if yo
 
 ```bash
 .
+.
 ├── assets
-│   ├── css            # All the styles that keep it looking fresh!
-│   ├── js             # The magic that powers our interactions
-│   └── images         # Icons, buttons, and visual goodies
-├── index.html         # The home base
-├── map.html           # Real-time map for location sharing
-├── profile_page.html  # Your profile page
-├── registration.html  # Where you set up your account
-└── *more pages*       # You'll explore them all 😉
+│   ├── css            # All the styles for various pages
+│   ├── js             # JavaScript files for interactivity
+│   └── images         # Icons, buttons, and images used throughout the app
+├── dashboard.html      # Main user dashboard with options to trigger actions
+├── friends_overview.html  # Overview of all friends, showing status and location
+├── friend_profile.html   # Individual friend's profile with details and status
+├── incident_report.html  # Page to report incidents or emergencies
+├── main_landing.html     # Main landing page for the app
+├── signup_form.html      # Signup form for new users to register
+├── symptoms_report.html  # Report symptoms to the chatbot for diagnosis
+└── user_profile.html     # User's profile page with settings and details
+.
+.
+```
+
+## 📱 **Set Up on Your Phone**
+
+1. **Host the Project Locally**:
+   - First, you’ll need to host the project so your phone can access it. You can do this using a local server. Here are two simple options:
+   
+   **Option 1: Using Python's Simple HTTP Server**:
+   - Open a terminal or command prompt in the root of your project folder and run the following command:
+     ```bash
+     # For Python 3.x:
+     python -m http.server
+     ```
+   - This will start a server at `http://localhost:8000`.
+
+   **Option 2: Using Live Server in VS Code**:
+   - Install the **Live Server** extension in Visual Studio Code.
+   - Open the project folder in VS Code, right-click on the `index.html` or `main_landing.html`, and choose **Open with Live Server**.
+   - This will also give you a local URL (e.g., `http://127.0.0.1:5500`).
+
+2. **Find Your Local IP Address**:
+   - To access the app from your phone, you need your computer's local IP address. Run this command to get it:
+     ```bash
+     # For macOS/Linux
+     ifconfig
+
+     # For Windows
+     ipconfig
+     ```
+   - Look for the IP address under your network connection (something like `192.168.x.x`).
+
+3. **Access the App on Your Phone**:
+   - Make sure both your phone and computer are on the same Wi-Fi network.
+   - Open a browser on your phone and type the following into the address bar:
+     ```text
+     http://<your-local-IP-address>:8000
+     ```
+   - For example: `http://192.168.0.101:8000` or whatever your local IP address is.
+
+4. **Save it as a Web App** (Optional):
+   - If you'd like to access the app like a native mobile app, you can add it to your home screen.
+   - In your phone browser (Safari or Chrome), tap the options menu and choose **Add to Home Screen**. This will save the app as an icon, so you can launch it directly from your home screen like an app.
+
+5. **You're all set!**  
+   Now you can explore the full functionality of **Don't Die AI** right from your phone.
+
