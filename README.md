@@ -40,11 +40,11 @@ Your location is always shared with your selected contacts, and it pops up if yo
 
 ## 📸 **Screenshots**
 
-> **[Insert a screenshot of the dashboard with the three main buttons: "I Feel Weird," "I See Something Weird," and "I Feel Unsafe."]**
+> ![Dashboard Screenshot](assets/images/dashboards_screenshot.png)
 
-> **[Insert a screenshot of the chatbot diagnosing a user in the "I Feel Weird" scenario.]**
+> !["I Feel Weird" scenario](assets/images/deedee_conversation.png)
 
-> **[Insert a screenshot showing the map location sharing with friends in a potential emergency.]**
+> ![Location Sharing](assets/images/location_shared.png)
 
 ---
 
@@ -77,9 +77,9 @@ Your location is always shared with your selected contacts, and it pops up if yo
 ├── signup_form.html      # Signup form for new users to register
 ├── symptoms_report.html  # Report symptoms to the chatbot for diagnosis
 └── user_profile.html     # User's profile page with settings and details
-.
-.
 ```
+
+---
 
 ## 📱 **Set Up on Your Phone**
 
