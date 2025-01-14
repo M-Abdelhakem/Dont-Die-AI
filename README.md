@@ -19,7 +19,7 @@ With thousands of overdose cases happening every year, especially in urban areas
 **Don't Die AI** was developed collaboratively by a talented team, with each member contributing their unique skills:  
 
 - **Brady Rutherford**: AI Model Tuning  
-- **Madiyar Zhunnosov**: Frontend Development (HTML & CSS)  
+- **Madiyar Zhunussov**: Frontend Development (HTML & CSS)  
 - **Mohanad Abdelhakem**: Database Connection (Firebase)  
 - **Tatiane Wu Li**: UI/UX Design  
 
